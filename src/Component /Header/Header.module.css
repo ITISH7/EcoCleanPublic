@@ -1,0 +1,16 @@
+
+@import '../../styles/Theme/Theme.module.css';
+header{
+    height: 124px;
+    background-color: white;
+    border-bottom: 1px solid #C3D4E9;
+    display: flex;
+    size: 32px;
+    
+}
+.logo{ 
+    font-family: var(--PrimaryFont-bold);
+    color: var(--Primary-green);
+    font-size: 32px;
+    margin-left: 60px;
+}

@@ -1,0 +1,15 @@
+@import '../../../../styles/Theme/Theme.module.css';
+
+button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+width: 99.26px;
+height: 45.45px;
+font-family: var(--PrimaryFont-bold);
+background: #48872C;
+border-radius: 25px;
+}
