@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense } from 'react';
 import { routes } from './Routes/Routes';
+import SearchBar from './Component /Common/SearchBar/Search Bar';
 export default function App() {
   return (
     <Router>
@@ -11,6 +12,8 @@ export default function App() {
           ))}
         </Routes>
       </Suspense>
+      <SearchBar />
+      
     </Router>
   );
 }
