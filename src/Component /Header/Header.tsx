@@ -1,5 +1,4 @@
 import SearchBar from '../Common/SearchBar/Search Bar';
-import Button from '../Common/Button/Button';
 import styles from './Header.module.css';
 import React from 'react';
 import Navbar from '../Common/Navbar/Navbar';
@@ -14,7 +13,6 @@ const Header: React.FC = () => {
                 <SearchBar/>
             </div>
             <Navbar />
-            {/* <Button button_type="button" onClick={()=>{console.log("hello")}} label='sign up'/> */}
         </header>
     );
 }
