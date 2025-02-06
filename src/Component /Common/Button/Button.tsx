@@ -4,7 +4,7 @@ import React from "react"
 type ButtonType ={
     button_type?:"submit"|"button"|"reset",
     label:string,
-    onClick:(e:React.FormEvent<HTMLButtonElement>)=> void,
+    onClick?:(e:React.MouseEvent<HTMLButtonElement>)=> void,
     className?: string,
     disabled?:boolean,
 }

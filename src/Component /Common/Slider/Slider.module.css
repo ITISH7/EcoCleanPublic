@@ -1,0 +1,14 @@
+@import "..//../../styles/Theme/Theme.module.css";
+
+
+.slider{
+    background-color: var(--Secondary-green);
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+}
+.active{
+    background-color: var(--Primary-green);
+}
